@@ -36,7 +36,7 @@ export function Mainpage() {
 
                     <section className="text-center md:text-left">
                         <p className="text-gray-900">
-                            Hello! I'm a dedicated Data Scientist and Real Estate Investor with a passion for uncovering insights and building lasting value.
+                            Hello! I&apos;m a dedicated Data Scientist and Real Estate Investor with a passion for uncovering insights and building lasting value.
                             I specialize in leveraging data-driven strategies to solve complex problems and make informed investment decisions in the real estate market.
                             With expertise in analytics, machine learning, and property investment, I combine precision and vision to turn ideas into impactful results.
                         </p>
@@ -148,7 +148,7 @@ export function Mainpage() {
                                 <div className="ml-4">
                                     <h3 className="font-medium">Hedonic Regression of Twin Cities Real Estate</h3>
                                     <p className="text-sm text-gray-600 mt-1">
-                                        A hedonic regression model to predict the price of a house in the Twin Cities area focusing on the impact of the individual home's age and its subsequent value.
+                                        A hedonic regression model to predict the price of a house in the Twin Cities area focusing on the impact of the individual home&apos;s age and its subsequent value.
                                     </p>
                                 </div>
                             </div>
