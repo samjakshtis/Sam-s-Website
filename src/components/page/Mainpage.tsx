@@ -5,10 +5,11 @@ import Image from 'next/image'
 import { Github, Linkedin, Mail, FileText } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { AnimatedBackground } from '@/components/page/Animatedbackground'
+import { useUmami } from 'next-umami'
 
 export function Mainpage() {
     const [isVisible, setIsVisible] = useState(false)
-
+    const umami = useUmami()
     useEffect(() => {
         setIsVisible(true)
     }, [])
@@ -195,7 +196,7 @@ export function Mainpage() {
                             { href: "/resume.pdf", icon: FileText, label: "Resume" },
                         ].map(({ href, icon: Icon, label }) => (
                             <div key={label} className="relative group">
-                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg">
+                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg" onClick={() => umami.event(label)}>
                                     <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label}>
                                         <Icon className="h-4 w-4" />
                                     </a>
