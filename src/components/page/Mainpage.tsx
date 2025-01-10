@@ -197,8 +197,11 @@ export function Mainpage() {
                             { href: "/resume.pdf", icon: FileText, label: "Resume" },
                         ].map(({ href, icon: Icon, label }) => (
                             <div key={label} className="relative group">
-                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg" onClick={() => umami.event("button_click", { label })}>
-                                    <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label}>
+                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg">
+                                    <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} onClick={() => {
+                                        console.log(`Button clicked: ${label}`);
+                                        umami.event("button_click", { label });
+                                    }}>
                                         <Icon className="h-4 w-4" />
                                     </a>
                                 </Button>
