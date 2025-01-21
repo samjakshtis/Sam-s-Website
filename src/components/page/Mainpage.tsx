@@ -197,9 +197,8 @@ export function Mainpage() {
                             { href: "/resume.pdf", icon: FileText, label: "Resume", category: "document" },
                         ].map(({ href, icon: Icon, label, category }) => (
                             <div key={label} className="relative group">
-                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg">
+                                <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg" data-umami-event={label}>
                                     <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
-                                        data-umami-event={label}
                                     >
                                         <Icon className="h-4 w-4" />
                                     </a>
