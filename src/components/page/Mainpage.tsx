@@ -193,7 +193,7 @@ export function Mainpage() {
                             { href: "https://github.com/samjakshtis", icon: Github, label: "GitHub", category: "social" },
                             { href: "https://www.linkedin.com/in/samuel-jakshtis-271b12196/", icon: Linkedin, label: "LinkedIn", category: "social" },
                             { href: "/resume.pdf", icon: FileText, label: "Resume", category: "document" },
-                        ].map(({ href, icon: Icon, label, category }) => (
+                        ].map(({ href, icon: Icon, label }) => (
                             <div key={label} className="relative group">
                                 <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg" data-umami-event={label}>
                                     <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
