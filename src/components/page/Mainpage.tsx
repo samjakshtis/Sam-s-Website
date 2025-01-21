@@ -5,11 +5,9 @@ import Image from 'next/image'
 import { Github, Linkedin, Mail, FileText } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { AnimatedBackground } from '@/components/page/Animatedbackground'
-import { useUmami } from 'next-umami'
 
 export function Mainpage() {
     const [isVisible, setIsVisible] = useState(false)
-    const umami = useUmami()
 
     useEffect(() => {
         setIsVisible(true)
