@@ -30,15 +30,19 @@ export function Mainpage() {
                         </div>
                         <div className="text-center md:text-left">
                             <h1 className="text-3xl font-bold">Sam Jakshtis</h1>
-                            <p className="text-gray-600 mt-2">Data Scientist, Real Estate Investor, and Rancher</p>
+                            <p className="text-gray-600 mt-2">Data Scientist and part-time Farmer</p>
                         </div>
                     </header>
 
                     <section className="text-center md:text-left">
                         <p className="text-gray-900">
-                            Hello! I&apos;m a dedicated Data Scientist and Real Estate Investor with a passion for uncovering insights and building lasting value.
-                            I specialize in leveraging data-driven strategies to solve complex problems and make informed investment decisions in the real estate market.
-                            With expertise in analytics, machine learning, and property investment, I combine precision and vision to turn ideas into impactful results.
+                            Hello! I&apos;m Samuel Jakshtis, a Data Scientist specializing in the real estate and agriculture sectors.
+                            I thrive on transforming complex real estate data into actionable insights and building lasting value.
+                            My expertise lies in leveraging advanced analytics and machine learning to uncover critical insights,
+                            solve intricate property-related problems, and drive data-driven investment decisions.
+                            I combine precision and vision to turn raw real estate data into strategic value, consistently delivering impactful results in
+                            property investment and agriculture.
+                            I also have a passion for agriculture and sustainability, and I am a part-time farmer.
                         </p>
                     </section>
 
@@ -56,9 +60,8 @@ export function Mainpage() {
                     <section className="space-y-4">
                         <div className="flex justify-between items-center">
                             <h2 className="text-xl font-semibold">Education</h2>
-                            <span className="text-sm text-gray-500">Scroll to see more</span>
                         </div>
-                        <div className="space-y-4 overflow-y-auto max-h-28 pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="bg-white/50 backdrop-blur-sm p-4 rounded-lg flex items-center space-x-4 transition-transform hover:scale-102">
                                 <div className="w-16 h-16 relative overflow-hidden rounded-full flex-shrink-0">
                                     <Image
@@ -97,9 +100,8 @@ export function Mainpage() {
                     <section className="space-y-4">
                         <div className="flex justify-between items-center">
                             <h2 className="text-xl font-semibold">Featured Projects</h2>
-                            <span className="text-sm text-gray-500">Scroll to see more</span>
                         </div>
-                        <div className="space-y-4 overflow-y-auto max-h-28 pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="bg-white/50 backdrop-blur-sm p-4 rounded-lg flex items-center transition-transform hover:scale-102">
                                 <div className="w-16 h-16 relative overflow-hidden rounded-full flex-shrink-0">
                                     <Image
@@ -114,7 +116,7 @@ export function Mainpage() {
                                 <div className="ml-4">
                                     <a href="https://www.realti.org" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline hover:text-blue-500">Realti</a>
                                     <p className="text-sm text-gray-600 mt-1">
-                                        A modern MLS system for all users in the real estate industry to work together. Realti is the modern MLS system reimagined for everyone.
+                                        The first AI-powered real estate Brokerage that combines machine learning with human expertise to help users make data-driven decisions with full transparency.
                                     </p>
                                 </div>
                             </div>
@@ -141,8 +143,9 @@ export function Mainpage() {
                                     <Image
                                         src="/twincities.jpg"
                                         alt="Project 1 Image"
-                                        layout="fill"
-                                        className="absolute"
+                                        fill
+                                        className="object-cover"
+                                        sizes="64px"
                                     />
                                 </div>
                                 <div className="ml-4">
@@ -157,8 +160,9 @@ export function Mainpage() {
                                     <Image
                                         src="/lakemead.jpg"
                                         alt="Project 1 Image"
-                                        layout="fill"
-                                        className="absolute"
+                                        fill
+                                        className="object-cover"
+                                        sizes="64px"
                                     />
                                 </div>
                                 <div className="ml-4">
@@ -173,8 +177,9 @@ export function Mainpage() {
                                     <Image
                                         src="/chestnut.png"
                                         alt="Project 1 Image"
-                                        layout="fill"
-                                        className="absolute"
+                                        fill
+                                        className="object-cover"
+                                        sizes="64px"
                                     />
                                 </div>
                                 <div className="ml-4">
@@ -192,7 +197,7 @@ export function Mainpage() {
                             { href: "mailto:sam.jakshtis@gmail.com", icon: Mail, label: "Email", category: "contact" },
                             { href: "https://github.com/samjakshtis", icon: Github, label: "GitHub", category: "social" },
                             { href: "https://www.linkedin.com/in/samuel-jakshtis-271b12196/", icon: Linkedin, label: "LinkedIn", category: "social" },
-                            { href: "/resume.pdf", icon: FileText, label: "Resume", category: "document" },
+                            { href: "/Sam Jakshtis Data Scientist.pdf", icon: FileText, label: "Resume", category: "document" },
                         ].map(({ href, icon: Icon, label }) => (
                             <div key={label} className="relative group">
                                 <Button variant="outline" size="icon" className="bg-white/50 backdrop-blur-sm hover:bg-white/80 transition-colors hover:shadow-lg" data-umami-event={label}>
