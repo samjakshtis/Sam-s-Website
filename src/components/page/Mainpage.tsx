@@ -30,14 +30,14 @@ export function Mainpage() {
                         </div>
                         <div className="text-center md:text-left">
                             <h1 className="text-3xl font-bold text-gray-900">Sam Jakshtis</h1>
-                            <p className="text-gray-700 font-medium text-lg mt-1">Strategic Analytics Engineer</p>
+                            <p className="text-gray-700 font-medium text-lg mt-1">Analytics Engineer</p>
                             <p className="text-gray-500 text-sm mt-1">Python | DBT | SQL | Analytics Engineering | Proptech</p>
                         </div>
                     </header>
 
                     <section className="text-center md:text-left">
                         <p className="text-gray-800 leading-relaxed">
-                            I am a Strategic Analytics Engineer specializing in the architecture of high-stakes financial and real estate data systems. Expert in leveraging the modern data stack (DBT, Python, SQL) to transform raw, unstructured data into institutional-grade assets.
+                            I am an Analytics Engineer specializing in the architecture of high-stakes financial and real estate data systems. Expert in leveraging the modern data stack (DBT, Python, SQL) to transform raw, unstructured data into institutional-grade assets.
                             Proven track record of partnering with C-suite leadership and cross-functional teams to drive data-driven insights for funds and large-scale asset portfolios.
                             Outside of code, I am also a part-time farmer, raising cattle, pigs, and chickens on my family farm.
                         </p>
