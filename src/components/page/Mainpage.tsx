@@ -30,16 +30,15 @@ export function Mainpage() {
                         </div>
                         <div className="text-center md:text-left">
                             <h1 className="text-3xl font-bold text-gray-900">Sam Jakshtis</h1>
-                            <p className="text-gray-700 font-medium text-lg mt-1">Financial Data Engineer</p>
-                            <p className="text-gray-500 text-sm mt-1">Python | SQL | dbt | Airflow | Proptech</p>
+                            <p className="text-gray-700 font-medium text-lg mt-1">Strategic Analytics Engineer</p>
+                            <p className="text-gray-500 text-sm mt-1">Python | DBT | SQL | Analytics Engineering | Proptech</p>
                         </div>
                     </header>
 
                     <section className="text-center md:text-left">
                         <p className="text-gray-800 leading-relaxed">
-                            I am a Financial Data Engineer with a strong background in automating financial workflows, building robust data pipelines, and bridging the gap between technical data solutions and business needs.
-                            Currently, I specialize in the Proptech sector, leveraging tools like dbt, Airflow, and BigQuery to transform complex real estate data into actionable financial insights.
-                            My passion lies in creating efficient, scalable systems that drive decision-making.
+                            I am a Strategic Analytics Engineer specializing in the architecture of high-stakes financial and real estate data systems. Expert in leveraging the modern data stack (DBT, Python, SQL) to transform raw, unstructured data into institutional-grade assets.
+                            Proven track record of partnering with C-suite leadership and cross-functional teams to drive data-driven insights for funds and large-scale asset portfolios.
                             Outside of code, I am also a part-time farmer, raising cattle, pigs, and chickens on my family farm.
                         </p>
                     </section>
@@ -48,18 +47,42 @@ export function Mainpage() {
                         <h2 className="text-2xl font-bold text-gray-900 border-b pb-2">Experience</h2>
                         <div className="space-y-8">
 
+
                             <div className="relative pl-8 border-l-2 border-gray-200">
                                 <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 ring-4 ring-white"></div>
                                 <div>
+                                    <h3 className="font-bold text-lg text-gray-900">Analytics Engineer</h3>
+                                    <p className="text-blue-600 font-medium">Arrived</p>
+                                    <p className="text-sm text-gray-500 mb-2">Jan 2026 - Present | Remote</p>
+                                    <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
+                                        <li>Reporting directly to the CTO to lead the evolution of the data modeling layer, ensuring data integrity for fractional real estate investment products.</li>
+                                        <li>Architecting scalable data schemas to support rapid growth and preparing for a transition into a management role overseeing the data function.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="relative pl-8 border-l-2 border-gray-200">
+                                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 ring-4 ring-white"></div>
+                                <div>
+                                    <h3 className="font-bold text-lg text-gray-900">M.B.A. Candidate</h3>
+                                    <p className="text-blue-600 font-medium">Massachusetts Institute of Technology</p>
+                                    <p className="text-sm text-gray-500 mb-2">Sept 2024 - Dec 2025 | Cambridge, MA</p>
+                                    <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
+                                        <li>M.B.A. with a focus in real estate and data systems.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="relative pl-8 border-l-2 border-gray-200">
+                                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 ring-4 ring-white"></div>
+                                <div>
                                     <h3 className="font-bold text-lg text-gray-900">Financial Data Engineer</h3>
                                     <p className="text-blue-600 font-medium">Darwin Homes</p>
-                                    <p className="text-sm text-gray-500 mb-2">August 2023 - January 2025 | Remote</p>
+                                    <p className="text-sm text-gray-500 mb-2">Sept 2023 - Jan 2024 | Remote</p>
                                     <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
-                                        <li>Built and maintained automated financial reporting pipelines using Python, SQL, and dbt, reducing monthly closing time by 40%.</li>
-                                        <li>Designed and deployed Airflow DAGs to orchestrate ETL processes for large-scale property management data.</li>
-                                        <li>Collaborated with finance teams to translate complex accounting requirements into scalable data models in BigQuery.</li>
-                                        <li>Led data migration initiatives, ensuring data integrity and consistency across legacy and new systems.</li>
-                                        <li>Optimized SQL queries and data warehouse architecture to improve dashboard performance and reduce costs.</li>
+                                        <li>Designed and supported Finance and Accounting reporting using SQL and Python, improving reporting accuracy and reducing month-end closing time for stakeholders.</li>
+                                        <li>Orchestrated scalable ETL workflows using Fivetran and Airbyte, resulting in 99.9% data uptime across distributed data stores.</li>
+                                        <li>Partnered with Finance/FP&A for the parent hedge fund to translate needs into DBT jobs, enabling real-time quantitative analysis for critical portfolio decision-making.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,12 +90,13 @@ export function Mainpage() {
                             <div className="relative pl-8 border-l-2 border-gray-200">
                                 <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 ring-4 ring-white"></div>
                                 <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Project Manager and Consultant</h3>
+                                    <h3 className="font-bold text-lg text-gray-900">Data Manager</h3>
                                     <p className="text-blue-600 font-medium">LandVest</p>
-                                    <p className="text-sm text-gray-500 mb-2">August 2022 - PRESENT | Boston, MA</p>
+                                    <p className="text-sm text-gray-500 mb-2">August 2021 - August 2023 | Boston, MA</p>
                                     <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
-                                        <li>Managed real estate consulting projects, delivering data-driven valuations and market analysis for high-net-worth clients.</li>
-                                        <li>Conducted comprehensive market research and financial modeling to support strategic investment decisions.</li>
+                                        <li>Architected data workflows for $10MM+ asset portfolios, transforming unstructured property data into standardized datasets used for institutional fund reporting.</li>
+                                        <li>Automated quarterly reporting pipelines using Python and SQL, which eliminated manual aggregation and accelerated the delivery of market intelligence publications.</li>
+                                        <li>Developed financial models to simulate asset performance, providing actionable insights that directly influenced strategic acquisition and divestment decisions.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,24 +104,13 @@ export function Mainpage() {
                             <div className="relative pl-8 border-l-2 border-gray-200">
                                 <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 ring-4 ring-white"></div>
                                 <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Backend and Machine Learning Engineer</h3>
+                                    <h3 className="font-bold text-lg text-gray-900">Backend Engineer</h3>
                                     <p className="text-blue-600 font-medium">Doorkee</p>
                                     <p className="text-sm text-gray-500 mb-2">June 2020 - August 2021 | New York City, NY</p>
                                     <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
-                                        <li>Developed and maintained backend systems for Doorkee, a real estate management platform, using Python and Django.</li>
-                                        <li>Developed and maintained machine learning models for Doorkee, a real estate management platform, using Python and scikit-learn.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="relative pl-8 border-l-2 border-gray-200">
-                                <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 ring-4 ring-white"></div>
-                                <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Real Estate Salesperson</h3>
-                                    <p className="text-blue-600 font-medium">Coldwell Banker</p>
-                                    <p className="text-sm text-gray-500 mb-2">March 2017 - February 2021 | MN and MA</p>
-                                    <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
-                                        <li>Facilitated residential real estate transactions, leveraging market data to guide clients through buying and selling processes.</li>
+                                        <li>Engineered optimized pricing models for 1,000+ unit property management firms, directly increasing rental income yields and reducing vacancy rates through data-driven price elasticity.</li>
+                                        <li>Analyzed NYC apartment trends using Machine Learning, improving the accuracy of market movement forecasts for internal team members.</li>
+                                        <li>Streamlined internal workflows through data analytics to improve company-wide data accessibility.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -121,7 +134,7 @@ export function Mainpage() {
                             <div>
                                 <h3 className="font-semibold text-gray-800 mb-2">Data & Tools</h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {['dbt', 'Airflow', 'BigQuery', 'Tableau', 'GCP', 'Excel', 'Git', 'Financial Modeling'].map((skill) => (
+                                    {['DBT', 'Airbyte', 'Fivetran', 'BigQuery', 'Snowflake', 'Tableau', 'Looker', 'Sigma', 'GitHub'].map((skill) => (
                                         <span key={skill} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-md text-sm font-medium">
                                             {skill}
                                         </span>
@@ -148,9 +161,9 @@ export function Mainpage() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-gray-900">Massachusetts Institute of Technology</h3>
-                                    <p className="text-blue-600 font-medium text-sm">MS in Real Estate Development (MSRED)</p>
-                                    <p className="text-sm text-gray-500">Graduated: 2025</p>
-                                    <p className="text-sm text-gray-600 mt-1">Focus on Real Estate Economics, Finance, and Data Analytics.</p>
+                                    <p className="text-blue-600 font-medium text-sm">M.B.A.</p>
+                                    <p className="text-sm text-gray-500">Sept 2024 - Dec 2025</p>
+                                    <p className="text-sm text-gray-600 mt-1">Focus in real estate and data systems.</p>
                                 </div>
                             </div>
                             <div className="group bg-white/50 backdrop-blur-sm p-4 rounded-lg flex items-start space-x-4 border border-transparent hover:border-gray-200 transition-all">
@@ -198,8 +211,8 @@ export function Mainpage() {
                         {[
                             { href: "mailto:sam.jakshtis@gmail.com", icon: Mail, label: "Email", category: "contact" },
                             { href: "https://github.com/samjakshtis", icon: Github, label: "GitHub", category: "social" },
-                            { href: "https://www.linkedin.com/in/samuel-jakshtis-271b12196/", icon: Linkedin, label: "LinkedIn", category: "social" },
-                            { href: "/Financial Data Engineer - Sam Jakshtis Resume.pdf", icon: FileText, label: "Resume", category: "document" },
+                            { href: "https://www.linkedin.com/in/sam-jakshtis-271b12196/", icon: Linkedin, label: "LinkedIn", category: "social" },
+                            { href: "/Sam Jakshtis Resume.pdf", icon: FileText, label: "Resume", category: "document" },
                         ].map(({ href, icon: Icon, label }) => (
                             <div key={label} className="relative group">
                                 <Button variant="outline" size="icon" className="bg-white hover:bg-gray-50 text-gray-700 border-gray-200 hover:border-gray-300 transition-all hover:shadow-md h-12 w-12" asChild>
