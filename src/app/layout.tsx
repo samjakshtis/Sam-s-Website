@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sam Jakshtis | Financial Data Engineer",
-  description: "Portfolio of Sam Jakshtis, a Financial Data Engineer specializing in Python, SQL, dbt, and Airflow for the Proptech sector.",
+  title: "Sam Jakshtis | AI Data Engineer",
+  description: "Portfolio of Sam Jakshtis, a Data Engineer specializing in AI, Automation, and Analytics using the modern data stack.",
 };
 
 export default function RootLayout({
