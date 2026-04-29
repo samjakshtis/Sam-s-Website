@@ -30,16 +30,17 @@ export function Mainpage() {
                         </div>
                         <div className="text-center md:text-left">
                             <h1 className="text-3xl font-bold text-gray-900">Sam Jakshtis</h1>
-                            <p className="text-gray-700 font-medium text-lg mt-1">Analytics Engineer</p>
-                            <p className="text-gray-500 text-sm mt-1">Python | DBT | SQL | Analytics Engineering | Proptech</p>
+                            <p className="text-gray-700 font-medium text-lg mt-1">AI Data Engineer</p>
+                            <p className="text-gray-500 text-sm mt-1">Data Engineering | AI | Automation | Analytics</p>
                         </div>
                     </header>
 
-                    <section className="text-center md:text-left">
+                    <section className="text-center md:text-left space-y-4">
                         <p className="text-gray-800 leading-relaxed">
-                            I am an Analytics Engineer specializing in the architecture of high-stakes financial and real estate data systems. Expert in leveraging the modern data stack (DBT, Python, SQL) to transform raw, unstructured data into institutional-grade assets.
-                            Proven track record of partnering with C-suite leadership and cross-functional teams to drive data-driven insights for funds and large-scale asset portfolios.
-                            Outside of code, I am also a part-time farmer, raising cattle, pigs, and chickens on my family farm.
+                            I am a Data Engineer specializing in AI, Automation, and Analytics for high-stakes financial and real estate markets.
+                        </p>
+                        <p className="text-gray-800 leading-relaxed">
+                            I build the infrastructure that transforms raw data into institutional-grade assets. By leveraging the modern data stack, I automate complex workflows and architect scalable systems that bridge the gap between fragmented data and executive strategy.
                         </p>
                     </section>
 
@@ -51,12 +52,13 @@ export function Mainpage() {
                             <div className="relative pl-8 border-l-2 border-gray-200">
                                 <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 ring-4 ring-white"></div>
                                 <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Analytics Engineer</h3>
+                                    <h3 className="font-bold text-lg text-gray-900">Data Engineer — AI, Automation, Analytics</h3>
                                     <p className="text-blue-600 font-medium">Arrived</p>
                                     <p className="text-sm text-gray-500 mb-2">Jan 2026 - Present | Remote</p>
                                     <ul className="list-disc list-outside text-gray-700 text-sm space-y-1 ml-4">
-                                        <li>Reporting directly to the CTO to lead the evolution of the data modeling layer, ensuring data integrity for fractional real estate investment products.</li>
-                                        <li>Architecting scalable data schemas to support rapid growth and preparing for a transition into a management role overseeing the data function.</li>
+                                        <li>Architecting and scaling the modern data stack to support fractional real estate investment products and advanced analytics.</li>
+                                        <li>Designing robust ETL/ELT pipelines using Fivetran, Airbyte, Python, and SQL to automate complex data workflows and ensure high data reliability.</li>
+                                        <li>Leading the evolution of the data modeling layer to bridge the gap between raw data and AI-driven strategic initiatives.</li>
                                     </ul>
                                 </div>
                             </div>
